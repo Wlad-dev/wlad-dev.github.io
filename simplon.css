@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(45deg, rgb(0, 225, 255), rgb(255, 0, 242)) ;
+}
+footer{
+    text-align: center;
+}
+
+.photo{
+    width: auto;
+    height: 400px;
+    
+}
+
+.name{
+    text-align: center ;
+    color: white;
+    margin-bottom: 0%;
+}
+.work{
+    text-align: center ;
+    color: white;
+    margin-top: 0%;
+}
+.RS{
+    width: auto;
+    height: 30px;
+    margin: 40px;
+}
