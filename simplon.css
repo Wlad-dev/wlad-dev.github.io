@@ -1,27 +1,47 @@
-                                              /*ALL*/
+                                              /*ALL*/ 
+*{                                                                                           
+    box-sizing: border-box;
+}
 
                                               /* HEADER*/
+
+.header{
+    display: flex;
+    margin-bottom: 40px;
+}
+.header_center{
+    flex-direction: column;
+}
 .name{
     text-align: center ;
     color: white;
-    margin-bottom: 0%;
+    margin: 0%;
     font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.photo{
+    width: auto;
+    height: 200px;
+    margin: 0%;
+
+}
+
 .work{
     text-align: center ;
     color: white;
-    margin-top: 0%;
+    margin: 0%;
 }                                              
 .logo{
     float: right;
-    margin-top: 50px;
+    margin: 0%;
    
 } 
 .logo_sncf, .logo_simplon{
-    width: auto;
+    width: 80px;
     height: 60px;
-}                               
+} 
+/*                              
 .nav {
     text-align: center;
     background-image: linear-gradient(45deg,  rgb(231, 70, 84), rgb(0, 225, 255)) ;
@@ -34,27 +54,45 @@
 }
 .nav a:hover{
     color: red;
-}                  
+}  
+*/                
 
                                               /*BODY*/
 body {
-     background-image: linear-gradient(45deg, rgb(0, 225, 255), rgb(231, 70, 84)) ;
-     margin: 40px;
+    background-image: linear-gradient(45deg, rgb(0, 225, 255), rgb(231, 70, 84)) ;
+     padding: 40px;
 }
-.photo{
-    width: auto;
-    height: 400px;
-    margin-top: 30px; 
+
+.avatar
+    {
+     display: flex;
+     justify-content: center;
 }
+/*
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+*/
+.aside{
+    flex: none;
+   width: 200px;
+}
+ 
+
 
                                               /*FOOTER*/
 
 footer{
     text-align: center;
+    height: 100px;
 }
 
 .RS{
     width: auto;
     height: 60px;
-    margin: 100px;
+}
+
+img.RS{
+    margin: 0 40px;
 }
