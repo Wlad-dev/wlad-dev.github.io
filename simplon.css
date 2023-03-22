@@ -79,7 +79,7 @@ body{
 }
 
 .welcome p strong{
-    border: solid rgb(223, 158, 158);
+    border: 7px solid rgb(223, 158, 158);
     padding: 10px;
     border-radius: 20%;
 }
