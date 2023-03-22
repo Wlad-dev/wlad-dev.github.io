@@ -78,6 +78,11 @@ body{
     margin-bottom: 70px;
 }
 
+.welcome p strong{
+    border: solid rgb(0, 225, 255);
+    padding: 10px;
+}
+
 .main{
     display: flex;
     justify-content: space-between;
