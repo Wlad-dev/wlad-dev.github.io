@@ -93,7 +93,7 @@ body{
 
 .first_flex_pres{
     display: flex;
-    flex-grow:.7;
+    flex-grow:initial;
 }
 
 .avatar{
