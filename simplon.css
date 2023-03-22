@@ -110,6 +110,10 @@ body{
     height: auto;
 }
 
+.content{
+    padding-top: 80px;
+}
+
 .content li{
     padding-bottom: 40px;
     font-size: 1.2em;
