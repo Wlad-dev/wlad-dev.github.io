@@ -1,0 +1,221 @@
+/*ALL*/
+
+
+*{                                                                                           
+    box-sizing: border-box;
+}
+
+
+/* HEADER*/
+
+
+
+.header a{
+    color: #FFF;
+}
+
+.header a:hover{
+    color: red;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:0%;
+}
+
+.photo{
+    width: auto;
+    height: 200px;
+    margin: 0%;
+    border-radius: 20%;
+}
+
+.header_center{
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.name{
+    text-align: center ;
+    color: white;
+    margin: 0%;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.work{
+    text-align: center ;
+    color: rgb(0, 225, 255);
+    margin: 0%;
+}       
+
+.header_logo{
+    margin: 0%;
+    padding-top: 30px;
+} 
+
+.logo_sncf, .logo_simplon{
+    width: 130px;
+    height: 80px;
+} 
+
+
+
+/*BODY*/
+
+
+body{
+    background: no-repeat center center / cover linear-gradient(45deg, rgb(0, 225, 255), rgb(231, 70, 84))  ;
+     padding: 40px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family:cursive, sans-serif ;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.welcome p strong{
+    flex-shrink: 0;
+    border: 7px solid rgb(223, 158, 158);
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgb(172, 245, 255) ;
+}
+
+.welcome p{
+    margin-bottom: 60px;
+}
+
+.main{
+    display: flex;
+    height: 900px;
+    align-items: center;
+}
+
+.main div:nth-child(1){
+    height: 900px;
+    flex-grow: .2;
+    padding: 0%;
+}
+
+.main div:nth-child(2){
+    height: 600px;
+   flex-grow: 8;
+}
+
+.main div:nth-child(3){
+    height: 700px;
+    flex-grow: 5;
+    flex: none;
+}
+
+/* CONTENT*/
+
+.content{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content img{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.content li{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: cursive, sans-serif;
+    list-style-type: circle;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+/*SLIDE BARRE*/
+
+.slide_barre{
+   background: linear-gradient(45deg, rgb(231, 70, 84), rgb(0, 225, 255))  ;
+   border-radius: 25% 10%;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+}
+
+.slide_barre h2{
+    padding-left: 60px;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(167, 4, 18);
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+
+.slide_barre a{
+    text-decoration: none;
+    font-weight:700;
+    color: black;
+    list-style-type: none; 
+}
+
+.slide_barre li{
+    list-style-type: none;
+    margin-top: 0%;
+    margin-bottom: 30%;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    border-radius: 20%;
+}
+
+.slide_barre a:hover{
+    color: rgb(255, 2, 2);
+}
+
+ 
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding-top: 10px;
+}
+
+.body_end{
+    margin-top: 30px;
+}
+
+.footer p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: weight 100px;
+    font-style: italic;
+    color: #140101;
+    letter-spacing: 5px;
+}
+.map{
+    margin-top: 30px;
+}
+
+iframe{
+    width: auto;
+    height: 200px;
+}
+
+.social{
+    justify-content: flex-end;
+}
+
+img.RS{
+    width: auto;
+    height: 60px;
+    margin: 40px 40px;
+}
